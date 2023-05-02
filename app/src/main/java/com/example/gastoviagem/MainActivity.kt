@@ -42,8 +42,5 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         } else {
             Toast.makeText(this, R.string.validation_fill_all_fields, Toast.LENGTH_LONG).show()
         }
-
-
-        // Toast.makeText(this, totalValueStr, Toast.LENGTH_LONG).show()
     }
 }
